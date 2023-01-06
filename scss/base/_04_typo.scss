@@ -1,0 +1,52 @@
+.title-main {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: $blue;
+
+  @include ipadPro {
+    font-size: 56px;
+    line-height: 64px;
+    text-align: left;
+  }
+}
+
+.title-secondary {
+  font-size: 4rem;
+}
+
+.title-small {
+  font-size: 2.4rem;
+}
+
+.title-small-extra {
+  font-size: 1.6rem;
+}
+
+.suptitle {
+  font-size: 1rem;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+}
+
+.lead {
+  font-size: 1.8rem;
+}
+
+p,
+li,
+a,
+button,
+textarea,
+span {
+  font-size: 1.6rem;
+}
+
+.paragraph {
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
