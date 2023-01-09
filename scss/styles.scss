@@ -3,3 +3,22 @@
 @import "./base/02_reset";
 @import "./base/03_spacing";
 @import "./base/04_typo";
+
+@import "./components/components";
+
+.hero-section {
+  align-items: center;
+  .paragraph {
+    text-align: center;
+    @include laptop {
+      text-align: left;
+      max-width: 70%;
+    }
+  }
+  .cta {
+    text-align: center;
+    @include laptop {
+      text-align: left;
+    }
+  }
+}

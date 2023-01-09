@@ -1,0 +1,15 @@
+.btn-main {
+  background-color: $red;
+  padding: 1.5rem 3rem;
+  color: white;
+  display: inline-block;
+  border-radius: 100px;
+  font-size: 13px;
+  text-align: center;
+  @include transition;
+  line-height: 1;
+  font-weight: 700;
+  &:hover {
+    background-color: $orange;
+  }
+}
